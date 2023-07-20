@@ -1,0 +1,64 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    font-weight: 800;
+    font-size: 12px;
+}
+
+h1, h2{
+    font-weight: 800;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    color:#595959;
+}
+
+p {
+    font-size: 17px;
+}
+
+.post-date {
+    font-size: 11px;
+}
+
+.author {
+    font-size: 14px;
+}
+
+.suggested-post {
+    margin-left: 8px;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+.content {
+    font-size: 17px;
+}
+
+.bg-header {
+    background-color: #d9d9d9;
+}
+
+.fade-borders-bottom {
+    border-style: solid;
+    border-image: linear-gradient(to bottom, black, 10%, transparent 90%) 1;
+    border-bottom: 0;
+}
+
+.fade-borders-top {
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(to top, black, 50%, transparent 90%) 1;
+    border-top: 0;
+}
