@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <title>Laravel</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-        <!-- Scripts -->
-        @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css'])
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-    </head>
-    <body class="pt-5">
+    <!-- Scripts -->
+    @vite(['resources/sass/app.scss', 'resources/js/app.js', 'resources/css/app.css'])
 
-        <div class='fixed-top'>
-            <header class="navbar navbar-expand-md navbar-light bg-header shadow-sm">
-                <div class="container-fluid ms-4">
+</head>
 
+<body class="pt-5">
+
+    <div class='fixed-top'>
+        <header class="navbar navbar-expand-lg navbar-light bg-header shadow-sm">
+            <div class="container-fluid ms-4">
                 <a class="navbar-brand" href="#">
                     <img src="/assets/icon.png" width="30" height="30" class="d-inline-block align-top" alt="Logo Tekno">
                     <span class="m-2" style="font-size:20px">Tekno</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Category #1</a>
@@ -44,11 +46,11 @@
                         <a href="{{ route('login') }}" class="btn btn-primary me-4" type="button">Sign in</a>
                     </div>
                 </div>
-                </div>
-            </header>
-        </div>
+            </div>
+        </header>
+    </div>
 
-        <div class='container mt-5'>
+    <div class='container mt-5'>
         <div class='row'>
             <div class='col-md-8 ms-5'>
                 <h1>The title belongs here. The title belongs here. The title belongs here. </h1>
@@ -90,7 +92,7 @@
                                 <h5 class="card-title">Suggested post's title belongs here.</h5>
                                 <p class="card-text">January 21, 2023 by Author's name</p>
                             </div>
-                            <img class="m-auto" src="/assets/beach.png" style="width:95%; align-item:center" alt="Card image cap">
+                            <img class="m-auto" src="/assets/beach.png" style="width:95%;" alt="Card image cap">
                         </div>
 
                         <div class="card fade-borders-bottom mb-4" style="width: 18rem;">
@@ -98,7 +100,7 @@
                                 <h5 class="card-title">Suggested post's title belongs here.</h5>
                                 <p class="card-text">January 21, 2023 by Author's name</p>
                             </div>
-                            <img class="m-auto" src="/assets/beach.png" style="width:95%; align-item:center" alt="Card image cap">
+                            <img class="m-auto" src="/assets/beach.png" style="width:95%;" alt="Card image cap">
                         </div>
 
                         <div class="card fade-borders-bottom mb-4" style="width: 18rem;">
@@ -106,16 +108,17 @@
                                 <h5 class="card-title">Suggested post's title belongs here.</h5>
                                 <p class="card-text">January 21, 2023 by Author's name</p>
                             </div>
-                            <img class="m-auto" src="/assets/beach.png" style="width:95%; align-item:center" alt="Card image cap">
+                            <img class="m-auto" src="/assets/beach.png" style="width:95%;" alt="Card image cap">
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-        
-        <footer class='bg-light mt-4'>
-        </footer>
-    </body>
+    </div>
+
+    <footer class='bg-light mt-4'>
+    </footer>
+</body>
+
 </html>
